@@ -13,6 +13,18 @@ const CommentsPage = () => {
   };
 
 
+  // const SubmitComment = async () => {
+  //   const response = await fetch("/api/comments", {
+  //     method: "POST",
+  //     body: JSON.stringify({ comment }),
+  //     header: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   });
+  //   const data = await response.json();
+  //   console.log(data);
+  // };
+
   const SubmitComment = async () => {
     const response = await fetch("/api/comments", {
       method: "POST",
